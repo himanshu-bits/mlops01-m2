@@ -11,31 +11,31 @@ echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.clou
 ## Update and install the gcloud CLI:
 sudo apt-get update && sudo apt-get install google-cloud-cli
 ## (Optional) Install any of the following additional components:
-google-cloud-cli
-google-cloud-cli-anthos-auth
-google-cloud-cli-app-engine-go
-google-cloud-cli-app-engine-grpc
-google-cloud-cli-app-engine-java
-google-cloud-cli-app-engine-python
-google-cloud-cli-app-engine-python-extras
-google-cloud-cli-bigtable-emulator
-google-cloud-cli-cbt
-google-cloud-cli-cloud-build-local
-google-cloud-cli-cloud-run-proxy
-google-cloud-cli-config-connector
-google-cloud-cli-datastore-emulator
-google-cloud-cli-firestore-emulator
-google-cloud-cli-gke-gcloud-auth-plugin
-google-cloud-cli-kpt
-google-cloud-cli-kubectl-oidc
-google-cloud-cli-local-extract
-google-cloud-cli-minikube
-google-cloud-cli-nomos
-google-cloud-cli-pubsub-emulator
-google-cloud-cli-skaffold
-google-cloud-cli-spanner-emulator
-google-cloud-cli-terraform-validator
-google-cloud-cli-tests
+google-cloud-cli<br>
+google-cloud-cli-anthos-auth<br>
+google-cloud-cli-app-engine-go<br>
+google-cloud-cli-app-engine-grpc<br>
+google-cloud-cli-app-engine-java<br>
+google-cloud-cli-app-engine-python<br>
+google-cloud-cli-app-engine-python-extras<br>
+google-cloud-cli-bigtable-emulator<br>
+google-cloud-cli-cbt<br>
+google-cloud-cli-cloud-build-local<br>
+google-cloud-cli-cloud-run-proxy<br>
+google-cloud-cli-config-connector<br>
+google-cloud-cli-datastore-emulator<br>
+google-cloud-cli-firestore-emulator<br>
+google-cloud-cli-gke-gcloud-auth-plugin<br>
+google-cloud-cli-kpt<br>
+google-cloud-cli-kubectl-oidc<br>
+google-cloud-cli-local-extract<br>
+google-cloud-cli-minikube<br>
+google-cloud-cli-nomos<br>
+google-cloud-cli-pubsub-emulator<br>
+google-cloud-cli-skaffold<br>
+google-cloud-cli-spanner-emulator<br>
+google-cloud-cli-terraform-validator<br>
+google-cloud-cli-tests<br>
 kubectl
 <br>
 ## inside Docker:
