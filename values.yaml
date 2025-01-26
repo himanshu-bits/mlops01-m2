@@ -1,0 +1,10 @@
+replicaCount: 2
+
+image:
+  repository: <your-image-name>
+  tag: <tag>
+  pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 80
