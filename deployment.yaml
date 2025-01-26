@@ -6,7 +6,7 @@ metadata:
   annotations:
     deployment.kubernetes.io/revision: '3'
     kubectl.kubernetes.io/last-applied-configuration: >
-      {"apiVersion":"apps/v1","kind":"Deployment","metadata":{"annotations":{},"name":"model-deployment","namespace":"default"},"spec":{"replicas":2,"selector":{"matchLabels":{"app":"model"}},"template":{"metadata":{"labels":{"app":"model"}},"spec":{"containers":[{"image":"mlops01-m3-mlops01-m4-1","name":"mlops01-m4","ports":[{"containerPort":5000}]}]}}}}
+      {"apiVersion":"apps/v1","kind":"Deployment","metadata":{"annotations":{},"name":"model-deployment","namespace":"default"},"spec":{"replicas":2,"selector":{"matchLabels":{"app":"model"}},"template":{"metadata":{"labels":{"app":"model"}},"spec":{"containers":[{"image":"himanshu57/mlops01-m3-mlops01-m4:latest","name":"mlops01-m3-mlops01-m4-1","ports":[{"containerPort":5000}]}]}}}}
 spec:
   replicas: 2
   selector:
@@ -20,8 +20,8 @@ spec:
         kubectl.kubernetes.io/restartedAt: '2025-01-26T20:09:02Z'
     spec:
       containers:
-      - name: mlops01-m4
-        image: mlops01-m3-mlops01-m4-1
+      - name: mlops01-m3-mlops01-m4-1
+        image: himanshu57/mlops01-m3-mlops01-m4:latest
         ports:
         - containerPort: 5000
           protocol: TCP
